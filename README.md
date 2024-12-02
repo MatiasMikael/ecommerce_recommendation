@@ -3,6 +3,10 @@
 ## Overview
 This project implements a Content-Based Filtering approach to build a personalized product recommendation system for e-commerce platforms. Using user purchase history and product features, the system recommends similar products to users, visualizes the results, and generates a structured CSV report of recommendations.
 
+## Data Limitations
+
+The dataset used in this project contains anonymized product data, where products are identified by unique codes (e.g., `003d1f09-c`). These codes are not descriptive product names, which may make the visualizations less intuitive for a general audience.
+
 ## Features
 * Displays user-specific recommendations based on purchase history.
 * Recommends similar products using cosine similarity on product features.
